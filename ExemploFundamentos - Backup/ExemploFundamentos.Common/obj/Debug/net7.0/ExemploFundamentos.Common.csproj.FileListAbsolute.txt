@@ -1,0 +1,22 @@
+C:\Users\Família\Desktop\ExemploFundamentos\ExemploFundamentos.Common\bin\Debug\net7.0\ExemploFundamentos.Common.deps.json
+C:\Users\Família\Desktop\ExemploFundamentos\ExemploFundamentos.Common\bin\Debug\net7.0\ExemploFundamentos.Common.dll
+C:\Users\Família\Desktop\ExemploFundamentos\ExemploFundamentos.Common\bin\Debug\net7.0\ExemploFundamentos.Common.pdb
+C:\Users\Família\Desktop\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net7.0\ExemploFundamentos.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Família\Desktop\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net7.0\ExemploFundamentos.Common.AssemblyInfoInputs.cache
+C:\Users\Família\Desktop\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net7.0\ExemploFundamentos.Common.AssemblyInfo.cs
+C:\Users\Família\Desktop\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net7.0\ExemploFundamentos.Common.csproj.CoreCompileInputs.cache
+C:\Users\Família\Desktop\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net7.0\ExemploFundamentos.Common.dll
+C:\Users\Família\Desktop\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net7.0\refint\ExemploFundamentos.Common.dll
+C:\Users\Família\Desktop\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net7.0\ExemploFundamentos.Common.pdb
+C:\Users\Família\Desktop\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net7.0\ref\ExemploFundamentos.Common.dll
+C:\Users\Família\Desktop\ExemploFundamentos - Backup\ExemploFundamentos.Common\bin\Debug\net7.0\ExemploFundamentos.Common.deps.json
+C:\Users\Família\Desktop\ExemploFundamentos - Backup\ExemploFundamentos.Common\bin\Debug\net7.0\ExemploFundamentos.Common.dll
+C:\Users\Família\Desktop\ExemploFundamentos - Backup\ExemploFundamentos.Common\bin\Debug\net7.0\ExemploFundamentos.Common.pdb
+C:\Users\Família\Desktop\ExemploFundamentos - Backup\ExemploFundamentos.Common\obj\Debug\net7.0\ExemploFundamentos.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Família\Desktop\ExemploFundamentos - Backup\ExemploFundamentos.Common\obj\Debug\net7.0\ExemploFundamentos.Common.AssemblyInfoInputs.cache
+C:\Users\Família\Desktop\ExemploFundamentos - Backup\ExemploFundamentos.Common\obj\Debug\net7.0\ExemploFundamentos.Common.AssemblyInfo.cs
+C:\Users\Família\Desktop\ExemploFundamentos - Backup\ExemploFundamentos.Common\obj\Debug\net7.0\ExemploFundamentos.Common.csproj.CoreCompileInputs.cache
+C:\Users\Família\Desktop\ExemploFundamentos - Backup\ExemploFundamentos.Common\obj\Debug\net7.0\ExemploFundamentos.Common.dll
+C:\Users\Família\Desktop\ExemploFundamentos - Backup\ExemploFundamentos.Common\obj\Debug\net7.0\refint\ExemploFundamentos.Common.dll
+C:\Users\Família\Desktop\ExemploFundamentos - Backup\ExemploFundamentos.Common\obj\Debug\net7.0\ExemploFundamentos.Common.pdb
+C:\Users\Família\Desktop\ExemploFundamentos - Backup\ExemploFundamentos.Common\obj\Debug\net7.0\ref\ExemploFundamentos.Common.dll

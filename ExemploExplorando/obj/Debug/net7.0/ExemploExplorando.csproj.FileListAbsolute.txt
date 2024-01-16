@@ -12,3 +12,6 @@ C:\Users\Família\Desktop\EDUARDO\DIO Programação Histórico\ExemploExplorando
 C:\Users\Família\Desktop\EDUARDO\DIO Programação Histórico\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.pdb
 C:\Users\Família\Desktop\EDUARDO\DIO Programação Histórico\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.genruntimeconfig.cache
 C:\Users\Família\Desktop\EDUARDO\DIO Programação Histórico\ExemploExplorando\obj\Debug\net7.0\ref\ExemploExplorando.dll
+C:\Users\Família\Desktop\EDUARDO\DIO Programação Histórico\ExemploExplorando\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Família\Desktop\EDUARDO\DIO Programação Histórico\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.csproj.AssemblyReference.cache
+C:\Users\Família\Desktop\EDUARDO\DIO Programação Histórico\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.csproj.CopyComplete

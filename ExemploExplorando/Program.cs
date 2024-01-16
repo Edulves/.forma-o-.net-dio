@@ -1,5 +1,59 @@
 ﻿using ExemploExplorando.Models;
 using System.Globalization;
+using Newtonsoft.Json;
+
+
+
+bool? desejaReceberEmail = true;
+
+if (desejaReceberEmail.HasValue && desejaReceberEmail.Value) 
+{
+  System.Console.WriteLine("O usuário optou por receber e-mail.");
+}
+else{
+  System.Console.WriteLine("O usuário não respondeu ou optou por não receber e-mail.");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+// List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+// foreach (Venda venda in listaVenda)
+// {
+//   System.Console.WriteLine($"Id: {venda.Id}, produto: {venda.Produto} - Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
+// }
 
 
 
@@ -44,13 +98,69 @@ using System.Globalization;
 
 
 
-int numero = 19;
-bool ehpar = false;
+
+
+
+
+// DateTime dataAtual = DateTime.Now;
+
+// List<Venda> listaVendas = new List<Venda>();
+
+// Venda v1 = new Venda(1, "Material de escritorio", 25.00M, dataAtual);
+// Venda v2 = new Venda(2, "Licença de Software", 110.00M, dataAtual);
+
+// listaVendas.Add(v1);
+// listaVendas.Add(v2);
+
+// string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+
+// File.WriteAllText("Arquivos/vendas.json", serializado);
+
+// Console.WriteLine(serializado);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int numero = 19;
+// bool ehpar = false;
 
 // IF Ternário
-ehpar = numero % 2 == 0;
+// ehpar = numero % 2 == 0;
 
-System.Console.WriteLine($"O número {numero} é " + (ehpar ? "par" : "ímpar"));
+// System.Console.WriteLine($"O número {numero} é " + (ehpar ? "par" : "ímpar"));
 
 // if (numero % 2 == 0)
 // {

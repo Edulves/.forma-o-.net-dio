@@ -4,56 +4,58 @@ using Newtonsoft.Json;
 
 
 
-bool? desejaReceberEmail = true;
+// bool? desejaReceberEmail = true;
 
-if (desejaReceberEmail.HasValue && desejaReceberEmail.Value) 
-{
-  System.Console.WriteLine("O usuário optou por receber e-mail.");
-}
-else{
-  System.Console.WriteLine("O usuário não respondeu ou optou por não receber e-mail.");
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
-
-// List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
-
-// foreach (Venda venda in listaVenda)
+// if (desejaReceberEmail.HasValue && desejaReceberEmail.Value) 
 // {
-//   System.Console.WriteLine($"Id: {venda.Id}, produto: {venda.Produto} - Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
+//   System.Console.WriteLine("O usuário optou por receber e-mail.");
 // }
+// else{
+//   System.Console.WriteLine("O usuário não respondeu ou optou por não receber e-mail.");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+foreach (Venda venda in listaVenda)
+{
+  System.Console.WriteLine($"Id: {venda.Id}, produto: {venda.Produto}," +
+                           $"Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}" +
+                           $" {(venda.Desconto.HasValue ? $"Desconto de: {venda.Desconto}" : "")}");
+}
 
 
 

@@ -4,6 +4,98 @@ using Newtonsoft.Json;
 
 
 
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+var listaAnonima = listaVenda.Select(x => new { x.Produto, x.Preco });
+
+foreach (var venda in listaAnonima)
+{
+  System.Console.WriteLine($"Produto: {venda.Produto}, Preço: {venda.Preco}");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var tipoAnonimo = new { Nome = "Eduardo", Sobrenome = "Alves", Altura = 1.80 };
+
+// System.Console.WriteLine("Nome: " + tipoAnonimo.Nome);
+// System.Console.WriteLine("Sobrenome: " + tipoAnonimo.Sobrenome);
+// System.Console.WriteLine("Altura: " + tipoAnonimo.Altura);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // bool? desejaReceberEmail = true;
 
 // if (desejaReceberEmail.HasValue && desejaReceberEmail.Value) 
@@ -46,16 +138,16 @@ using Newtonsoft.Json;
 
 
 
-string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+// string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
 
-List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+// List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
 
-foreach (Venda venda in listaVenda)
-{
-  System.Console.WriteLine($"Id: {venda.Id}, produto: {venda.Produto}," +
-                           $"Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}" +
-                           $" {(venda.Desconto.HasValue ? $"Desconto de: {venda.Desconto}" : "")}");
-}
+// foreach (Venda venda in listaVenda)
+// {
+//   System.Console.WriteLine($"Id: {venda.Id}, produto: {venda.Produto}," +
+//                            $"Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}" +
+//                            $" {(venda.Desconto.HasValue ? $"Desconto de: {venda.Desconto}" : "")}");
+// }
 
 
 

@@ -3,17 +3,163 @@ using System.Globalization;
 using Newtonsoft.Json;
 
 
+int numero = 20;
+bool par = false;
 
-string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+//IF Ternário
+par = numero.EhPar();
 
-List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+string mensagem = "O número " + numero + " é " + (par ? "par" : "ímpar");
+Console.WriteLine(mensagem);
 
-var listaAnonima = listaVenda.Select(x => new { x.Produto, x.Preco });
 
-foreach (var venda in listaAnonima)
-{
-  System.Console.WriteLine($"Produto: {venda.Produto}, Preço: {venda.Preco}");
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// MeuArray<int> arrayInteiro = new MeuArray<int>();
+
+// arrayInteiro.AdicionarElementoArray(30);
+
+// Console.WriteLine(arrayInteiro[0]);
+
+
+// MeuArray<string> arrayString = new MeuArray<string>();
+
+// arrayString.AdicionarElementoArray("Teste");
+
+// Console.WriteLine(arrayString[0]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// dynamic variavelDinamica = 4;
+
+// System.Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+// variavelDinamica = "Texto";
+// System.Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+// variavelDinamica = true;
+// System.Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+// List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+// var listaAnonima = listaVenda.Select(x => new { x.Produto, x.Preco });
+
+// foreach (var venda in listaAnonima)
+// {
+//   System.Console.WriteLine($"Produto: {venda.Produto}, Preço: {venda.Preco}");
+// }
 
 
 
